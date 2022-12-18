@@ -23,3 +23,6 @@ We used two different testing methods:
 2. [Provengo](https://provengo.tech/), a story-based testing framework.
 
 Each of the testing methods is elaborated in its own directory. 
+
+## Results
+You should add a report of your testing to the FinalReport folder. See [Report README](Report/README.md) for more details on the report format.  
