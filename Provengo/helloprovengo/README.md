@@ -28,7 +28,7 @@ Provnego project for spec-ing and testing my system.
 
 ## Useful Commands
 
-⚠️ NOTE: In the below listings, we assume that `provengo` is in the system's PATH variable, and that `C:\Repositories\sqe-hw3\Provengo\helloprovengo` is the path to this directory.
+⚠️ NOTE: In the below listings, we assume that `provengo` is in the system's PATH variable, and that `helloprovengo` is the (relative/absolute) path to this directory.
 
 For full documentation go to [https://docs.provengo.tech](https://docs.provengo.tech).
 
@@ -43,7 +43,7 @@ Perform a single run through the specification. Good for "Sanity checks", i.e. t
 
 Draw the specification in a PDF file.
 
-    provengo analyze -f pdf C:\Repositories\sqe-hw3\Provengo\helloprovengo
+    provengo analyze -f pdf helloprovengo
 
 
 ⚠️ NOTE: This requires [Graphviz](http://graphviz.org) to be installed.
@@ -53,7 +53,7 @@ Draw the specification in a PDF file.
 
 Sample 10 scenarios into a file. The scenarios are stored in a file called `samples.json` (this can be changed using the `-o`/`--output-file` switch).
 
-    provengo sample --delete-previous --sample-size 10 C:\Repositories\sqe-hw3\Provengo\helloprovengo
+    provengo sample --delete-previous --sample-size 10 helloprovengo
 
 
 ### Create an Optimized Test Suite
@@ -62,16 +62,16 @@ Generate a test suite of 5 tests that provides a good coverage of items in the [
 
 **Requires running `sample` first** (the previous command)**.**
 
-    provengo ensemble --suite-size 5 C:\Repositories\sqe-hw3\Provengo\helloprovengo
+    provengo ensemble --suite-size 5 helloprovengo
 
 #### Visualize the Spec and the Suite
 
 Draw the specification, and highlight the traces in the optimized test suite create by the previous command.
 
-    provengo analyze -f pdf --highlight-file ensemble.json C:\Repositories\sqe-hw3\Provengo\helloprovengo
+    provengo analyze -f pdf --highlight-file ensemble.json helloprovengo
 
 ### Create Test Scripts for Third Party Systems
 
 Converts the runs in `ensemble.json` to automation test scripts.
 
-    provengo gen-scripts -s ensemble.json C:\Repositories\sqe-hw3\Provengo\helloprovengo
+    provengo gen-scripts -s ensemble.json helloprovengo
