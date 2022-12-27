@@ -19,9 +19,13 @@ We tested the quiz module that allows for creating and taking quizzes. We chose 
 
 *Preconditions:* There is a course with a teacher
 
-*User story:* A students attempts a quiz.
+*Expected outcome:* The quiz is added to the course.
 
-*Preconditions:* There is a course with a quiz with two yes/no questions.
+*User story:* A students attempts a quiz and answers correctly.
+
+*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
+
+*Expected outcome:* The student receives 100.
 $$
 
 ## How we tested
