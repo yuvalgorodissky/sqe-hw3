@@ -4,28 +4,32 @@ This is a repository for assignment 3 of the Software Quality Engineering course
 ## Assignment Description
 In this assignment, we tested an open-source software called [moodle](https://moodle.bgu.ac.il/).
 
-$$*TODO* Add some general description about the software$$
+Moodle is a free and open-source Learning Management System widely used in educational institutions to create, deliver and manage online courses. 
+It provides teachers and instructors with a flexible platform to manage student interactions and assessments.
+
 
 ## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+You could also install Moodle on your local server, by following the instruction on the Moodle website
+https://docs.moodle.org/32/en/Installing_Moodle
 
 ## What we tested
-$$*TODO* Add a description of the module and the user stories that you chose to test.
-For example, in the case of the Moodle example, you can write something like this:
 
-We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
 
-*User story:* A teacher adds a new quiz to the course with two yes/no questions
+The purpose of this test is to evaluate the functionality of the Moodle website's feature that allows students to add entries to a database, as well as the capability for teachers to delete a field within said entries.
 
-*Preconditions:* There is a course with a teacher
+We chose to test the following user stories: 
 
-*Expected outcome:* The quiz is added to the course.
+*User story:* A teacher delete a field from the database
 
-*User story:* A students attempts a quiz and answers correctly.
+*Preconditions:* There is a course with a teacher , there is a database with fields in the course
 
-*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
+*Expected outcome:* the field deleted.
 
-*Expected outcome:* The student receives 100.
+*User story:* A students add a new entry to the database.
+
+*Preconditions:* There is a course with a database with fields.
+
+*Expected outcome:* the database contains the new entry.
 $$
 
 ## How we tested
@@ -36,17 +40,12 @@ We used two different testing methods:
 Each of the testing methods is elaborated in its own directory. 
 
 ## Results
-Update all README.md files (except for d-e, see Section 1). Specifically, replace all $$*TODO*…$$ according to the instructions inside the $$.
-
 ## Detected Bugs
 We detected the following bugs:
 
 1. Bug 1: 
-   1. General description: ...
-   2. Steps to reproduce: ...
-   3. Expected result: ...
-   4. Actual result: ...
-   5. Link to the bug report: (you are encouraged to report the bug to the developers of the software)
-2. Bug 2: ...
-
-$$*TODO* if you did not detect the bug, you can delete this section$$  
+   1. General description: the entry added to database without the field that deleted, without informative warrning before the submission
+   2. Steps to reproduce: student enter to add new entry, then teacher delete one filed, then student submit entry
+   3. Expected result: informative warrning before the submission
+   4. Actual result: the entry added to database without the field that deleted
+   5. Link to the bug report: (moodle have an unspam machine so we found report about that closed to the bug that we found )https://tracker.moodle.org/browse/MDL-46765
