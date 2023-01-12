@@ -4,7 +4,7 @@ This directory contains the Provengo project for testing provengoMoodle.
 ## Running the tests
 To run a single random test, run:
 ```shell 
-provengo run helloprovengo
+provengo run provengoMoodle
 ```
 
 See the [Provengo README](provengoMoodle/README.md) for more useful commands.
