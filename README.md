@@ -10,7 +10,7 @@ It provides teachers and instructors with a flexible platform to manage student 
 
 ## Installation
 You could also install Moodle on your local server, by following the instruction on the Moodle website
-https://docs.moodle.org/32/en/Installing_Moodle
+[installMoodle](https://docs.moodle.org/32/en/Installing_Moodle)
 
 ## What we tested
 
@@ -30,7 +30,7 @@ We chose to test the following user stories:
 *Preconditions:* There is a course with a database with fields.
 
 *Expected outcome:* the database contains the new entry.
-$$
+
 
 ## How we tested
 We used two different testing methods:
@@ -48,4 +48,4 @@ We detected the following bugs:
    2. Steps to reproduce: student enter to add new entry, then teacher delete one filed, then student submit entry
    3. Expected result: informative warrning before the submission
    4. Actual result: the entry added to database without the field that deleted
-   5. Link to the bug report: (moodle have an unspam machine so we found report about that closed to the bug that we found )https://tracker.moodle.org/browse/MDL-46765
+   5. Link to the bug report: (moodle have an unspam machine so we found report about that closed to the bug that we found )[Report](https://tracker.moodle.org/browse/MDL-46765)
