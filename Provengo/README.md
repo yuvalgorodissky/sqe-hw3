@@ -26,9 +26,9 @@ provengo analyze -f PDF provengoMoodle
 provengo run --show-sessions provengoMoodle
 ```
 6. We repeated steps 4-5 until we were satisfied with the result.
-7. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The link for the video is [VideoRun]https://github.com/yuvalgorodissky/sqe-hw3/blob/main/Provengo/provengo_video.mp4
+7. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The link for the video is [VideoRun](https://github.com/yuvalgorodissky/sqe-hw3/blob/main/Provengo/provengo_video.mp4)
 8. We copied the generated graph of the model to a file named testSpace.pdf inside this directory 
-[Model.pdf]https://github.com/yuvalgorodissky/sqe-hw3/blob/main/Provengo/provengoMoodle/testSpace.pdf
+[Model.pdf](https://github.com/yuvalgorodissky/sqe-hw3/blob/main/Provengo/provengoMoodle/testSpace.pdf)
 
 ### Story files
 The test stories are in [Tests.story.js](provengoMoodle/spec/js/MoodleTest.story.js). See the file for a detailed description of the stories.
