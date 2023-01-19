@@ -41,9 +41,7 @@ Each of the testing methods is elaborated in its own directory.
 
 ## Results
 ## Detected Bugs
-We detected the following bugs:
-
-1. Bug 1: 
+We detected a bug:
    1. General description: the entry added to database without the field that deleted, without informative warrning before the submission
    2. Steps to reproduce: student enter to add new entry, then teacher delete one filed, then student submit entry
    3. Expected result: informative warrning before the submission
