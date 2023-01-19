@@ -51,3 +51,9 @@ We detected a bug:
    3. Expected result: informative warrning before the submission
    4. Actual result: the entry added to database without the field that deleted
    5. Link to the bug report: (moodle have an unspam machine so we found report about that closed to the bug that we found )[Report](https://tracker.moodle.org/browse/MDL-46765)
+
+
+
+**Written by Yuval Gorodissky and Noam Azulay, students in the course.**
+
+
