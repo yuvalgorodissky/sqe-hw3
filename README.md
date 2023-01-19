@@ -32,6 +32,10 @@ We chose to test the following user stories:
 *Expected outcome:* the database contains the new entry.
 
 
+
+**Written by Yuval Gorodissky and Noam Azulay, students in the course.**
+
+
 ## How we tested
 We used two different testing methods:
 1. [Cucumber](https://cucumber.io/), a BDD testing framework.
