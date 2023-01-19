@@ -43,7 +43,6 @@ We used two different testing methods:
 
 Each of the testing methods is elaborated in its own directory. 
 
-## Results
 ## Detected Bugs
 We detected a bug:
    1. General description: the entry added to database without the field that deleted, without informative warrning before the submission
